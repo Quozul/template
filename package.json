@@ -8,5 +8,9 @@
   "private": false,
   "devDependencies": {
     "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "prettier-check": "prettier --check ./src/*.js",
+    "prettier-write": "prettier --write ./src/*.js"
   }
 }

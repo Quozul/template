@@ -6,26 +6,26 @@ assignees:
   - octocat
 body:
   - type: input
-      id: user
-      attributes:
-        label: User Details
-        description: As a
-        placeholder: description of user
-      validations:
-        required: true
+    id: user
+    attributes:
+      label: User Details
+      description: As a
+      placeholder: description of user
+    validations:
+      required: true
   - type: textarea
-      id: functionality
-      attributes:
-        label: Functionality Details
-        description: I want
-        placeholder: Tell us what you want [functionality] !
-      validations:
-        required: true
+    id: functionality
+    attributes:
+      label: Functionality Details
+      description: I want
+      placeholder: Tell us what you want [functionality] !
+    validations:
+      required: true
   - type: textarea
-      id: benefits
-      attributes:
-        label: Benefits Details
-        description: So that
-        placeholder: Tell us the benefits [benefits] !
-      validations:
-        required: true
+    id: benefits
+    attributes:
+      label: Benefits Details
+      description: So that
+      placeholder: Tell us the benefits [benefits] !
+    validations:
+      required: true

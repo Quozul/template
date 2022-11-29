@@ -5,7 +5,6 @@ labels: ["feature"]
 assignees:
   - octocat
 body:
-  - type: markdown
   - type: input
       id: user
       attributes:

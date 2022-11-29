@@ -1,0 +1,32 @@
+name: Feature
+description: File a Feature
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+  - type: input
+      id: user
+      attributes:
+        label: User Details
+        description: As a
+        placeholder: description of user
+      validations:
+        required: true
+  - type: textarea
+      id: functionality
+      attributes:
+        label: Functionality Details
+        description: I want
+        placeholder: Tell us what you want [functionality] !
+      validations:
+        required: true
+  - type: textarea
+      id: benefits
+      attributes:
+        label: Benefits Details
+        description: So that
+        placeholder: Tell us the benefits [benefits] !
+      validations:
+        required: true
